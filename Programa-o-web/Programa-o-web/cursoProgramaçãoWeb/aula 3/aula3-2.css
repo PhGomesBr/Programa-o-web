@@ -1,0 +1,57 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    flex: 1;
+    display: flex;
+}
+.box{
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid purple;
+    background-color: #ff00ea;
+}
+
+#top-container{
+    border: 2px solid red;
+    background-color: orange;
+}
+#box1, #box2{
+    flex: 1;
+    text-align: center;
+}
+#middle-container{
+    justify-content: center;
+    border: 2px solid blue;
+    background-color: lightblue;
+}
+#box3{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+#button-container{
+    flex: 2;
+}
+
+#box5{
+    display: grid;
+    grid-template-areas: 
+        "box1 box2"
+        "box3 box4";
+}
+#box6{
+    grid-area: box1;
+}
+
+#box7{
+    grid-area: box2;
+}
+#box8{
+    grid-area: box4;
+}
+#box9{
+    grid-area: box3;
+}
