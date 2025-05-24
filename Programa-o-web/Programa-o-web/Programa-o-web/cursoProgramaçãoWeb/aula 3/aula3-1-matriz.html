@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-areas: 
+                "box1 box1"
+                "box2 box2"
+                "box3 box3";
+                gap: 10px;
+            }
+            .box{
+                padding: 10px;
+                margin: 10px;
+                text-align: center;
+                font-size: 16px;
+            }
+            #box1{
+                grid-area: box1;
+                background-color: red;
+            }
+            #box2{
+                grid-area: box2;
+                background-color: green;
+            }
+            #box3{
+                grid-area: box3;
+                background-color: blue;
+            }
+            #box4{
+                grid-area: box4;
+                background-color: yellow;
+            }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>

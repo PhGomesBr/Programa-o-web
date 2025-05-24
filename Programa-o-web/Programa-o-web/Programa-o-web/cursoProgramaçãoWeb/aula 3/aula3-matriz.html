@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .conteiner{
+            display: grid;
+            grid-template-areas: 
+                "header header"
+                "menu content"
+                "footer footer";
+                border: 2px solid black;
+        }
+        header{
+            grid-area: header;
+            border: 1px solid rgb(17, 0, 255);
+        }
+        aside{
+            grid-area: menu;
+            border: 1px solid rgb(0, 255, 21);
+        }
+        main{
+            grid-area: content;
+            border: 1px solid rgb(255, 0, 0);
+        }
+        footer{
+            grid-area: footer;
+            border: 1px solid rgb(0, 0, 255);
+        }
+        .box{
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <header class="box">HEADER</header>
+        <aside class="box">MENU</aside>
+        <main class="box">CONTENT</main>
+        <footer class="box">FOOTER</footer>
+    </div>
+</body>
+</html>

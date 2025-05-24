@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');/*estilo de fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');/*estilo de fonte*/
+*{
+   font-family: "Bungee Spice", sans-serif;/*estilo de fonte do site*/
+}
+/* Estilo do cabeçalho*/
+  header{
+    background-color: aqua;
+    color: white;
+    text-align: center;
+}
+.bemvindo{
+    color: black; /*cor do texto*/
+}
+/* Estilo do título */
+.li-navbar{
+    color: black;
+    list-style:none;
+    display: inline-block;
+    transition: all 0.3s ease; /* Adiciona transição suave */
+
+}
+/* Estilo do menu de navegação */
+.li-navbar:hover{
+    color: red;
+    font-size: 24px;
+    font-family: "Permanent Marker", cursive; /* mudar o estilo de fonte do site ao ppassar o amuse em cima*/
+}
+/* Estilo do conteúdo principal */
+.introducao{
+    background-color: black;
+    color: white;
+}
+/* Estilo do rodapé */
+.descricao{
+    background-color: brown;
+}
